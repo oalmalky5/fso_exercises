@@ -1,0 +1,96 @@
+<mxfile host="65bd71144e">
+    <diagram id="tNYV-MW0CDPtE9v_AXKX" name="Page-1">
+        <mxGraphModel dx="1074" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Web browser" style="whiteSpace=wrap;html=1;strokeColor=#009900;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="50" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;HTTP GET request for the single-page app at https://studies.cs.helsinki.fi/exampleapp/spa&lt;/font&gt;&lt;/p&gt;" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+                    <mxGeometry x="-0.1429" width="100" relative="1" as="geometry">
+                        <mxPoint x="425" y="100" as="sourcePoint"/>
+                        <mxPoint x="425" y="160" as="targetPoint"/>
+                        <Array as="points"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;labelBackgroundColor=#000000;fontColor=#FFFFFF;" parent="1" source="4" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;Single-page app (HTML, CSS, and JS files)&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;" parent="8" vertex="1" connectable="0">
+                    <mxGeometry x="0.0759" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="Server" style="whiteSpace=wrap;html=1;strokeColor=#009900;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="170" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" parent="1" source="7" target="33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;User creates new note and clicks submit button&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;" parent="34" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1382" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="SPA" style="whiteSpace=wrap;html=1;strokeColor=#009900;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="270" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="425" y="850" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;HTTP POST request to https://studies.cs.helsinki.fi/exampleapp/spa/new_note with new note content&lt;/p&gt;" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" parent="1" source="33" target="35" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="Javascript" style="whiteSpace=wrap;html=1;strokeColor=#009900;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="390" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" parent="1" source="35" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;Server responds with 201 Created status code and the new note in JSON format&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;" parent="38" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0549" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="Server" style="whiteSpace=wrap;html=1;strokeColor=#009900;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="510" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="37">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="425" y="750" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: Courier; text-align: start;&quot; class=&quot;p1&quot;&gt;Updated data.json file (including the new note)&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;" vertex="1" connectable="0" parent="43">
+                    <mxGeometry x="-0.1028" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="JSON" style="whiteSpace=wrap;html=1;strokeColor=#009900;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="630" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="45">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="425" y="900" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot;&gt;Event handler updates the UI with the new note using the DOM-API&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;" vertex="1" connectable="0" parent="48">
+                    <mxGeometry x="-0.0062" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="Javascript" style="whiteSpace=wrap;html=1;strokeColor=#009900;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="760" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Updated UI" style="whiteSpace=wrap;html=1;strokeColor=#009900;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="900" width="230" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
